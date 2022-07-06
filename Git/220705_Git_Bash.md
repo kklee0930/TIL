@@ -151,7 +151,7 @@ $cd test
 $touch .gitkeep #빈 폴더 test를 commit 하기 위해서 .gitkeep을 추가하였다.
 ```
 
-![2022-07-06 214515](/220705_Git_Bash.assets/2022-07-06 214515.png)
+![pic1](220705_Git_Bash.assets/pic1.png)
 
   <br>
 
@@ -167,7 +167,7 @@ $git commit -m 'This is test.'
 $git log #commit 기록을 확인한다.
 ```
 
-![2022-07-06 214905](/220705_Git_Bash.assets/2022-07-06 214905.png)
+![pic2](220705_Git_Bash.assets/pic2.png)
 
   <br>
 
@@ -179,11 +179,11 @@ $git remote add origin https://github.com/user_name/repo_name.git
 $git git push origin master
 ```
 
-![2022-07-06 215414](/220705_Git_Bash.assets/2022-07-06 215414.png)
+![pic3](220705_Git_Bash.assets/pic3.png)
 
   <br>
 
 
 👍정상적으로 push가 된 것을 깃허브를 통해 확인할 수 있다!👍
 
-![2022-07-06 215451](/220705_Git_Bash.assets/2022-07-06 215451-16571121310492.png)
+![pic4](220705_Git_Bash.assets/pic4.png)
