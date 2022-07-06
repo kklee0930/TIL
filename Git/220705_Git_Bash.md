@@ -4,14 +4,6 @@
 
  
 
- 
-
- 
-
- 
-
-
-
 ## 📖Git
 
 > 버전관리란: 컴퓨터 소프트웨어의 특정 상태를 버전으로 명시하여 개별적으로 관리하는 것
@@ -32,10 +24,10 @@
 **Git의 기본흐름**
 
 1. 작업(수정)하고 [WORKING DIRECTORY]
-
 2. 변경된 파일을 모아 (add) [STAGING AREA]
-
 3. 버전으로 남긴다 (commit) [REPOSITORY]
+
+![KakaoTalk_20220706_212446716](220705_Git_Bash.assets/KakaoTalk_20220706_212446716.jpg)
 
 `Working Directory` : 파일의 변경사항을 생성하는 곳
 
@@ -45,11 +37,11 @@
 
 
 
-`modified` : 파일이 수정된 상태(add 명령어 통해 staging area로)
+`modified` : 파일이 수정된 상태(Working Directory에 위치해 있음)
 
-`staged` : 수정한 파일을 곧 커밋할 것이라고 표시한 상태(commit 명령어로 저장소)
+`staged` : 수정한 파일을 곧 커밋할 것이라고 표시한 상태(Staging Area에 위치해 있음)
 
-`committed` : 커밋이 된 상태
+`committed` : 커밋이 된 상태(Repository에 위치해 있음)
 
 
 
@@ -79,13 +71,19 @@
 
 - untracked 상태의 파일을 staged 상태로 변경
 
+
+
 `$git commit -m '<message>'` : staged 상태의 파일들을 커밋을 통해 버전으로 기록
 
 - 나중에 되돌아가기 위해서 관리
 - 파일 변경 사항들의 스냅샷이라고 생각하면 됨
 - 파일들이 변경되었을 때 의도했던 행위를 기록한다고 생각하면 됨
 
+
+
 `$git status` : Git 저장소에 있는 파일의 상태를 확인하기 위해서 활용
+
+
 
 `$git log` : 현재 저장소에 기록된 커밋을 조회
 
@@ -94,40 +92,13 @@
   - `$git log --oneline` : 커밋내역을 한 줄로 표시해줘
   - `$git log -2 --oneline` : 최근 2개 커밋내역을 두 줄로 표시해줘
   
+  
 
-`$git remote add origin <https://github.com/git_username/repository_name.git>` : 로컬저장소와 원격저장소를 연결
+`$git remote add origin https://github.com/git_username/repository_name.git` : 로컬저장소와 원격저장소를 연결
+
+
 
 `$git push origin master` : 로컬 저장소에서 커밋 완료된 파일을 원격저장소에 업로드
-
-
-
-# 로컬 저장소 만들기(연습)
-
-## 1. 프로젝트 폴더 만들기
-
-- 0706폴더 생성하기
-
-## 2. 해당 폴더에서 Git 버전 관리 시작하기
-
-```bash
-$git init
-```
-
-- 주의! (master)라고 되어 있으면 상위 폴더를 생성하자.
-- 명령어를 입력하게 되면 .git 폴더가 생성된다.
-
-## 3. 작업
-
-- 별도의 빈 파일 하나 생성
-- status도 확인하기
-
-## 4. 작업이 완료되면 커밋하기
-
-- 커밋하고 log도 확인하기
-
-## 5. 자유롭게 파일 만들고 수정하고 삭제하면서 커밋 3개 더 쌓아보기
-
-- 수정하고 생성하는 작업이나 변경사항이 있어야만 add/commit 가능함
 
 
 
@@ -140,47 +111,45 @@ $git init
 
 
 
-# Git 실습
+> **💻git을 활용하여 수정/변경/생성한 파일을 add하고 commit 해 보자!**
 
-## 0. 사전 설정 (PC 최초 한번)
+1. git bash를 실행하여 디렉토리 변경 및 파일 수정/추가 등의 변경을 줘 보자.
 
 ```bash
-$git config --global user.name 'Github ID'
-$git config --global user.email 'Github Email'
+$mkdir testfolder 
+$cd testfolder 
+$touch test1.txt 
+$mkdir test
+$cd test
+$touch .gitkeep #빈 폴더 test를 commit 하기 위해서 .gitkeep을 추가하였다.
 ```
 
-## 1. 바탕화면에 TIL 폴더를 만든다.
+![화면 캡처 2022-07-06 214515](220705_Git_Bash.assets/화면 캡처 2022-07-06 214515.png)
 
-- TIL 폴더를 열어서 마크다운 정리 파일을 옮긴다.
-
-## 2. TIL 폴더에 git 저장소를 만들어준다.
+2. 변경사항을 로컬저장소에 add하고 commit 해보자.
 
 ```bash
+$cd ..
 $git init
-.
-.
-.(master) $
-```
-
-## 3. 커밋을 만든다.
-
-```bash
-$git status
-On branch master
-
-No commits yet
-.
-.
-
-```
-
-```bash
 $git add .
-$git commit -m '마크다운 정리'
-$git log
+$git status #git의 Staging area를 확인한다.
+$git commit -m 'This is test.'
+$git log #commit 기록을 확인한다.
 ```
 
+![화면 캡처 2022-07-06 214905](220705_Git_Bash.assets/화면 캡처 2022-07-06 214905.png)
+
+3. 로컬저장소와 원격저장소를 연결한 후, 커밋된 변경사항들을 원격저장소에 업데이트한다.
+
+```bash
+$git remote add origin https://github.com/user_name/repo_name.git
+$git git push origin master
+```
+
+![화면 캡처 2022-07-06 215414](220705_Git_Bash.assets/화면 캡처 2022-07-06 215414.png)
 
 
 
+정상적으로 push가 된 것을 깃허브를 통해 확인할 수 있다!
 
+![화면 캡처 2022-07-06 215451](220705_Git_Bash.assets/화면 캡처 2022-07-06 215451-16571121310492.png)
