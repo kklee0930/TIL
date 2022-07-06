@@ -11,20 +11,18 @@
 
 **Git** : 분선 버전 관리 시스템 / 형상 관리 도구
 
-컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하는 것을 돕는다.  
-  
+컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하는 것을 돕는다. 
 
+<br>
 
 ### Git 기초 흐름
 
 **분산버전관리 시스템(DVCS) : Distributed Version Control Systems**
 
 - 중앙에서 버전을 관리하고 파일을 받아서(Pull) 사용
+- 분산버전관리 시스템은 원격 저장소(Repository)를 통해 저장/관리
 
-- 분산버전관리 시스템은 원격 저장소(Repository)를 통해 저장/관리  
-
-    
-
+<br>
 
 **Git의 기본흐름**
 
@@ -40,7 +38,7 @@
 
 `Repository` : 커밋(버전)들이 최종적으로 기록되는 곳
 
-  
+  <br>
 
 
 `modified` : 파일이 수정된 상태(Working Directory에 위치해 있음)
@@ -49,14 +47,14 @@
 
 `committed` : 커밋이 된 상태(Repository에 위치해 있음)
 
-  
+  <br>
 
 
 ## 📖Git Bash 명령어 정리
 
 > Git Bash의 명령어는 Git의 명령어와는 다르게 $git이 붙지 않는다. 
 
-  
+  <br>
 
 
 `$mkdir foldername` : 폴더 생성 (make directory)
@@ -73,7 +71,7 @@
 
 `$ls` : 현재 디렉토리의 파일 목록 표시 (list)
 
-  
+  <br>
 
 
 ## 📖Git 명령어 정리
@@ -82,7 +80,8 @@
 
 - untracked 상태의 파일을 staged 상태로 변경
 
-  
+
+<br>
 
 
 `$git commit -m '<message>'` : staged 상태의 파일들을 커밋을 통해 버전으로 기록
@@ -91,42 +90,42 @@
 - 파일 변경 사항들의 스냅샷이라고 생각하면 됨
 - 파일들이 변경되었을 때 의도했던 행위를 기록한다고 생각하면 됨
 
-  
 
+<br>
 
 `$git status` : Git 저장소에 있는 파일의 상태를 확인하기 위해서 활용
 
-  
+  <br>
 
 
 `$git log` : 현재 저장소에 기록된 커밋을 조회
 
 - 다양한 옵션을 통해 로그를 조회할 수 있음
   
-    
+    <br>
   
   
   - `$git log -1` : 최근 1개 커밋을 보여줘
   
-      
+      <br>
     
   - `$git log --oneline` : 커밋내역을 한 줄로 표시해줘
   
-      
+      <br>
     
   - `$git log -2 --oneline` : 최근 2개 커밋내역을 두 줄로 표시해줘
   
-    
+    <br>
   
 
 `$git remote add origin https://github.com/git_username/repository_name.git` : 로컬저장소와 원격저장소를 연결
 
-  
+  <br>
 
 
 `$git push origin master` : 로컬 저장소에서 커밋 완료된 파일을 원격저장소에 업로드
 
-  
+  <br>
 
 
 ## ⛔주의사항
@@ -136,7 +135,7 @@
 3. **명령어의 결과 영어를 잘 읽자.**
 3. **모든 변경사항은 .git 폴더에 저장된다.**
 
-  
+  <br>
 
 
 > **💻git을 활용하여 수정/변경/생성한 파일을 add하고 commit 해 보자!**
@@ -154,7 +153,7 @@ $touch .gitkeep #빈 폴더 test를 commit 하기 위해서 .gitkeep을 추가�
 
 ![2022-07-06 214515](220705_Git_Bash.assets/2022-07-06 214515.png)
 
-  
+  <br>
 
 
 2. 변경사항을 로컬저장소에 add하고 commit 해보자.
@@ -170,7 +169,7 @@ $git log #commit 기록을 확인한다.
 
 ![2022-07-06 214905](220705_Git_Bash.assets/2022-07-06 214905.png)
 
-  
+  <br>
 
 
 3. 로컬저장소와 원격저장소를 연결한 후, 커밋된 변경사항들을 원격저장소에 업데이트한다.
@@ -182,7 +181,7 @@ $git git push origin master
 
 ![2022-07-06 215414](220705_Git_Bash.assets/2022-07-06 215414.png)
 
-  
+  <br>
 
 
 👍정상적으로 push가 된 것을 깃허브를 통해 확인할 수 있다!👍
