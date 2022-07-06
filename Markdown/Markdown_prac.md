@@ -2,6 +2,8 @@
 
 
 
+
+
 ## 📖Heading(제목/소제목)
 
 `#`의 갯수에 따라 **h1~h6까지 표현이 가능**하다.
@@ -25,6 +27,8 @@
 ### ⛔주의사항
 
 제목이나 소제목에만 사용하는 것이 바람직하다. 글자 굵기 조절에는 `ctrl+b` 를 사용하자.
+
+
 
 
 
@@ -69,6 +73,8 @@ Daily Routine
 
 
 
+
+
 ## 📖Code Block(코드 블럭)
 
 - backtick 기호(`)를 3개를 활용하여 작성한다.
@@ -96,15 +102,19 @@ if False:
 
 
 
+
+
 ## 📖Link(링크)
 
 `[name of the website](url)` 을 입력하여 링크를 생성할 수 있다.
 
 [실라버스 링크](https://www.syllaverse.com)
 
-[파이썬 다운로드 링크](python.org)
+[파이썬 다운로드 링크](https://www.python.org)
 
-[유튜브 링크](youtube.com)
+[유튜브 링크](https://www.youtube.com)
+
+
 
 
 
@@ -113,6 +123,8 @@ if False:
 indentation(`>`) 을 이용하여 사용할 수 있다.
 
 > 이렇게 사용할 수 있다.
+
+
 
 
 
@@ -131,6 +143,8 @@ indentation(`>`) 을 이용하여 사용할 수 있다.
 
 
 
+
+
 ## 📖Text(텍스트 스타일)
 
 `*`(asterisk)를 문자의 양 끝에 붙여 사용한다.
@@ -143,6 +157,8 @@ indentation(`>`) 을 이용하여 사용할 수 있다.
 
 
 
+
+
 ## 📖Horizontal line(수평선) 
 
 `---` 을 이용하여 수평선을 만든다.
@@ -150,6 +166,8 @@ indentation(`>`) 을 이용하여 사용할 수 있다.
 
 
 ---
+
+
 
 
 
