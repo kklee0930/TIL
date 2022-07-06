@@ -1,7 +1,16 @@
-# 마크다운
+# 📖Today I learned
 
-- [마크다운 예시](./Markdown/Markdown_prac.md)
-- [이미지 폴더](./Markdown/images)
-- [마크다운 실습](./Markdown/Markdown_Assignment.md)
+![tenor](README.assets/tenor.gif)
 
-- [Git 사용법](./Git/220705_Git_Bash.md)
+## Markdown
+
+❗[마크다운 작성법(2022.07.04)](./Markdown/Markdown_prac.md)
+
+✍️[마크다운 실습(2022.07.04)](./Markdown/Markdown_Assignment.md)
+
+## Git
+
+❗[Git 사용법(2022.07.05~2022.07.06)](./Git/220705_Git_Bash.md)
+
+## Python
+

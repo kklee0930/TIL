@@ -1,49 +1,33 @@
-# Git Bash/Git 강의
+# Git Bash/Git
+
+> Git이란 무엇인가? 짧게 정리하자면 **분산 버전 관리 시스템**, 혹은 **형상 관리 도구** 라고 할 수 있다.
 
 
 
-## ❗Git Bash 명령어 정리
+## 📖Git
 
-`mkdir foldername` : 폴더 생성 (make directory)
-
-`pwd`: 현재 working direcory 표시 (print working directory)
-
-`touch file` : 파일 생성
-
-`cd ..`: 상위 폴더 이동 (change directory)
-
-`rm -r foldername` : 폴더 삭제 (remove)
-
-`rm file` : 파일 삭제
-
-`ls` : 현재 디렉토리의 파일 목록 표시 (list)
-
-
-
-## ❗Git
-
-> 버전관리란: 컴퓨터 소프트웨어의 특정 상태
+> 버전관리란: 컴퓨터 소프트웨어의 특정 상태를 버전으로 명시하여 개별적으로 관리하는 것
 
 **Git** : 분선 버전 관리 시스템 / 형상 관리 도구
 
-컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율
+컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하는 것을 돕는다.
 
 
 
 ### Git 기초 흐름
 
-**분산버전관리 시스템(DVCS)**
+**분산버전관리 시스템(DVCS) : Distributed Version Control Systems**
 
-- 중앙에서 버전을 관리하고 파일을 받아서 사용
-- 분산버전관리 시스템은 원격 저장소를 통해 저장/관리
+- 중앙에서 버전을 관리하고 파일을 받아서(Pull) 사용
+- 분산버전관리 시스템은 원격 저장소(Repository)를 통해 저장/관리
 
 **Git의 기본흐름**
 
-1. 작업(수정)하고 [WORKING DIRECTORY : 1통]
+1. 작업(수정)하고 [WORKING DIRECTORY]
 
-2. 변경된 파일을 모아 (add) [STAGING AREA : 2통]
+2. 변경된 파일을 모아 (add) [STAGING AREA]
 
-3. 버전으로 남긴다 (commit) [REPOSITORY : 3통]
+3. 버전으로 남긴다 (commit) [REPOSITORY]
 
 `Working Directory` : 파일의 변경사항을 생성하는 곳
 
@@ -61,9 +45,29 @@
 
 
 
-### Git 명령어 정리
+## 📖Git Bash 명령어 정리
 
-`$git add <file>`: working directory 상의 변경 내용을 staging area에 추가하기 위해 사용
+> Git Bash의 명령어는 Git의 명령어와는 다르게 $git이 붙지 않는다.
+
+`$mkdir foldername` : 폴더 생성 (make directory)
+
+`$pwd` : 현재 working direcory 표시 (print working directory)
+
+`$touch file` : 파일 생성
+
+`$cd ..` : 상위 폴더 이동 (change directory)
+
+`$rm -r foldername` : 폴더 삭제 (remove)
+
+`$rm file` : 파일 삭제
+
+`$ls` : 현재 디렉토리의 파일 목록 표시 (list)
+
+
+
+## 📖Git 명령어 정리
+
+`$git add <file>` : working directory 상의 변경 내용을 staging area에 추가하기 위해 사용
 
 - untracked 상태의 파일을 staged 상태로 변경
 
@@ -78,10 +82,14 @@
 `$git log` : 현재 저장소에 기록된 커밋을 조회
 
 - 다양한 옵션을 통해 로그를 조회할 수 있음
-  - `$git log -1` : 최근 1개 커밋을 보여줘.
+  - `$git log -1` : 최근 1개 커밋을 보여줘
   - `$git log --oneline` : 커밋내역을 한 줄로 표시해줘
   - `$git log -2 --oneline` : 최근 2개 커밋내역을 두 줄로 표시해줘
   
+
+`$git remote add origin <https://github.com/git_username/repository_name.git>` : 로컬저장소와 원격저장소를 연결
+
+`$git push origin master` : 로컬 저장소에서 커밋 완료된 파일을 원격저장소에 업로드
 
 
 
