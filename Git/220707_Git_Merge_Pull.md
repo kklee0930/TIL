@@ -89,7 +89,7 @@ $git pull origin master
 
 > #### git에는 branch라는 것이 존재한다.
 
-![git-model@2x](220707_Git (Merge, Pull).assets/git-model@2x.png)
+![git-model@2x](220707_Git_Merge_Pull.assets/git-model@2x.png)
 
 <br>
 
@@ -97,13 +97,13 @@ $git pull origin master
 
 일단 나는 branch를 **역할군/부서**으로 이해했다. 협업에서는 역할 배분이 이루어지기 마련이고 이에 따른 branch 또한 무수히 생성된다. 이에 따라 생성된 branch 내에서 각자 작업을 수행하고 최종적으로 **master branch가 수행된 commit을 merge** 한다.
 
-![KakaoTalk_20220708_003405433](220707_Git (Merge, Pull).assets/KakaoTalk_20220708_003405433.jpg)
+![KakaoTalk_20220708_003405433](220707_Git_Merge_Pull.assets/KakaoTalk_20220708_003405433.jpg)
 
 <br>
 
 Merge가 완료된 후에는 각자 다시 원격저장소에서 변경사항을 pull 하여 작업을 진행하고 위의 사진과 같은 작업을 반복한다 (단 clone은 하지 않는다!).
 
-![KakaoTalk_20220708_003434409](220707_Git (Merge, Pull).assets/KakaoTalk_20220708_003434409.jpg)
+![KakaoTalk_20220708_003434409](220707_Git_Merge_Pull.assets/KakaoTalk_20220708_003434409.jpg)
 
 <br>
 
@@ -291,19 +291,19 @@ branch, pull, merge를 활용하여 협업이 이루어지는 것을 배웠다. 
 
 Repo에 접근하여 Fork를 하자.
 
-![capt1](220707_Git (Merge, Pull).assets/capt1.png)
+![capt1](220707_Git_Merge_Pull.assets/capt1.png)
 
 <br>
 
 Fork한 Repo의 URL을 복사하자(반드시 나의 Repo의 URL을 복사해야 한다!)
 
-![capt2](220707_Git (Merge, Pull).assets/capt2.png)
+![capt2](220707_Git_Merge_Pull.assets/capt2.png)
 
 <br>
 
 `$git clone URL` 해서 로컬저장소로 가져오고 PR용 branch를 생성한다.
 
-![aaaa](220707_Git (Merge, Pull).assets/aaaa.png)
+![aaaa](220707_Git_Merge_Pull.assets/aaaa.png)
 
 ```bash
 $git checkout -b test
