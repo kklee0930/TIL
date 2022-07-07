@@ -10,7 +10,9 @@
 
 ## Git
 
-❗[Git 사용법(2022.07.05~2022.07.06)](./Git/220705_Git_Bash.md)
+❗[Git : Add, Commit, Push(2022.07.05~2022.07.06)](./Git/220705_Git_Bash.md)
+
+❗[Git : Fork, Pull, Clone, Merge(2022.07.07)](./Git/220707_Git (Merge, Pull).md)
 
 ## Python
 
