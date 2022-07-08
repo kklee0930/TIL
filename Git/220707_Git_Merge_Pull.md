@@ -337,3 +337,10 @@ git은 기본적으로 아래와 같이 작동한다.
 
 ![git_ex2](220707_Git_Merge_Pull.assets/git_ex2.png)
 
+<br>
+
+## References
+
+[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+
+[Git Pro 한글 번역본](https://git-scm.com/book/ko/v2)
