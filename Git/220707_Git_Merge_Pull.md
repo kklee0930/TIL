@@ -323,3 +323,17 @@ $git push origin test
 
 이후에 fork를 했던 나의 저장소에 들어가면 create request를 할 수 있다.
 
+<br>
+
+### 🌟최종적으로 정리를 해 보자면,
+
+git은 기본적으로 아래와 같이 작동한다.
+
+![git_ex1](220707_Git_Merge_Pull.assets/git_ex1.png)
+
+<br>
+
+다른 Repo를 Fork 해서 작업하는 경우 (Forking workflow), 아래와 같이 작동한다.
+
+![git_ex2](220707_Git_Merge_Pull.assets/git_ex2.png)
+
