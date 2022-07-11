@@ -14,6 +14,8 @@
 
 2022.07.08 취업 특강 (채용 사이트 가입 및 채용 기업 리스트 업데이트)
 
+2022.07.11 파이썬 연산자, 변수, 자료형, 컨테이너 학습 / codeup 파이썬 기초 100제
+
 
 
 ## Markdown
@@ -30,7 +32,7 @@
 
 ## Python
 
-
+❗[Operators, Variables, Data types, Containers(2022.07.11)](./Python/220711_Python.md)
 
 ## 취업특강
 
