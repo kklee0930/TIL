@@ -16,6 +16,8 @@
 
 2022.07.11 파이썬 연산자, 변수, 자료형, 컨테이너 학습 / codeup 파이썬 기초 100제
 
+2022.07.12 파이썬 제어문, 조건문, 반복문 학습 / codeup 파이썬 기초 100제
+
 
 
 ## Markdown
@@ -33,6 +35,8 @@
 ## Python
 
 ❗[Operators, Variables, Data types, Containers(2022.07.11)](./Python/220711_Python.md)
+
+❗[Conditional and Control Statement, Loop(2022.07.12)](./Python/220712_Python.md)
 
 ## 취업특강
 
