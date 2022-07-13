@@ -9,3 +9,9 @@ print(reversed)
 #또는
 reversed = word[::-1]
 print(reversed)
+
+#index 조작으로 풀기 (이 방법에 익숙해지자.)
+box = ''
+for i in range(len(word)):
+    box += word[(len(word)-i-1)]
+print(box)
