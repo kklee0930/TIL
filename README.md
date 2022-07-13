@@ -38,6 +38,8 @@
 
 ❗[Conditional and Control Statement, Loop(2022.07.12)](./Python/220712_Python.md)
 
+❗[Funciton, Map(2022.07.13)](./Python/220713_Python.md)
+
 ## 취업특강
 
 ❗[Day1(2022.07.08)](./ETC/220708_JOB.md)
