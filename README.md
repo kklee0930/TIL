@@ -22,6 +22,8 @@
 
 2022.07.14 파이썬 메서드 학습 / codeup 파이썬 기초 100제 마무리 / 파이썬 실습
 
+2022.07.15 파이썬 Import, File Write 및 Read 학습 / codeup 파이썬 기초 100제 마무리 / 파이썬 프로젝트 실습
+
 
 
 ## Markdown
@@ -47,6 +49,8 @@
 ✍️[Python Exercise(2022.07.12~2022.07.14)](./Python/Exercise)
 
 ❗[Methods in Dictionary, List, String(2022.07.14)](./Python/220714_Python.md)
+
+❗[Import, File write, File read(2022.07.15)](./Python/220715_Python.md)
 
 ## 취업특강
 
