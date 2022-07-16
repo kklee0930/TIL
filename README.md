@@ -25,6 +25,7 @@
 2022.07.15 파이썬 Import, File Write 및 Read 학습 / codeup 파이썬 기초 100제 / 파이썬 프로젝트 실습
 
 2022.07.16 파이썬 프로젝트 01-PJT-01 마무리 / codeup 파이썬 기초 100제 마무리
+<br>
 
 ## Markdown
 
