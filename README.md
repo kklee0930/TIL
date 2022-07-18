@@ -55,7 +55,7 @@
 
 ❗[Import, File write, File read(2022.07.15)](./Python/220715_Python.md)
 
-❗[Debugging, Error, Exception (2022.07.19)](./Python/220719_Python.md)
+❗[Debugging, Error, Exception (2022.07.18)](./Python/220718_Python.md)
 
 ## 취업특강
 
