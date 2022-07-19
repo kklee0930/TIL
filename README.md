@@ -27,6 +27,8 @@
 (2022.07.16) 파이썬 프로젝트 01-PJT-01 마무리 / codeup 파이썬 기초 100제 마무리
 
 (2022.07.18) 파이썬 Debugging, Error, Exception 학습 / 파이썬 실습 / 백준 문제풀이
+
+(2022.07.19) 파이썬 객체지향 OOP 개념 학습 / 파이썬 실습 / 백준, SWEA 문제풀이
 <br><br>
 
 ## Markdown
@@ -56,6 +58,8 @@
 ❗[Import, File write, File read(2022.07.15)](./Python/220715_Python.md)
 
 ❗[Debugging, Error, Exception (2022.07.18)](./Python/220718_Python.md)
+
+❗[OOP (2022.07.19)](./Python/220719_Python.md)
 
 ## 취업특강
 
