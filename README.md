@@ -29,6 +29,9 @@
 (2022.07.18) 파이썬 Debugging, Error, Exception 학습 / 파이썬 실습 / 백준 문제풀이
 
 (2022.07.19) 파이썬 객체지향 OOP 개념 학습 / 파이썬 실습 / 백준, SWEA 문제풀이
+
+(2022.07.19) 파이썬 객체지향 OOP 개념 학습 / 백준, SWEA 문제풀이
+
 <br><br>
 
 ## Markdown
@@ -60,6 +63,8 @@
 ❗[Debugging, Error, Exception (2022.07.18)](./Python/220718_Python.md)
 
 ❗[OOP (2022.07.19)](./Python/220719_Python.md)
+
+❗[OOP (2022.07.20)](./Python/220720_Python.md)
 
 ## 취업특강
 
