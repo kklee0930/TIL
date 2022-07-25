@@ -24,7 +24,7 @@
 
 (2022.07.15) 파이썬 Import, File Write 및 Read 학습 / codeup 파이썬 기초 100제 / 파이썬 프로젝트 실습
 
-(2022.07.16) 파이썬 프로젝트 01-PJT-01 마무리 / codeup 파이썬 기초 100제 마무리
+(2022.07.16) 파이썬 실습 프로젝트 01-PJT-01 마무리 / codeup 파이썬 기초 100제 마무리
 
 (2022.07.18) 파이썬 Debugging, Error, Exception 학습 / 파이썬 실습 / 백준 문제풀이
 
@@ -34,6 +34,11 @@
 
 (2022.07.21) 파이썬 List Comprehension, Filter, Lambda, 가상환경 / 백준, SWEA 문제풀이
 
+(2022.07.22) API 학습, 파이썬 실습 프로젝트 01-PJT-02 / 백준 문제풀이
+
+(2022.07.23~2022.07.24) 백준 문제풀이
+
+(2022.07.25) 알고리즘 입력 및 출력 학습 / 백준 문제풀이 / 코드 리뷰
 <br><br>
 
 ## Markdown
@@ -69,6 +74,14 @@
 ❗[OOP (2022.07.20)](./Python/220720_Python.md)
 
 ❗[List Comprehension, Venv, Filter, Lambda (2022.07.21)](./Python/220721_Python.md)
+
+## Algorithm
+
+❗[Input, Output (2022.07.25)](./Algorithm/220725_Algorithm.md)
+
+## ETC
+
+❗[API (2022.07.22)](./Python/220722_Python.md)
 
 ## 취업특강
 
