@@ -77,11 +77,11 @@
 
 ## Algorithm
 
-❗[Input, Output (2022.07.25)](./Algorithm/220725_Algorithm.md)
+❗[Data Structures, Input, Output (2022.07.25)](./Algorithm/220725_Algorithm.md)
 
 ## ETC
 
-❗[API (2022.07.22)](./Python/220722_Python.md)
+❗[API, json files (2022.07.22)](./Python/220722_Python.md)
 
 ## 취업특강
 
