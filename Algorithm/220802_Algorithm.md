@@ -124,18 +124,23 @@ print(numbers_2) # [0,3,2,4,10,5] 0이 min이므로 가장 앞으로 정렬되�
 ![](220802_Algorithm.assets/2022-08-02%20112737.png)
 
 ```python
+from sys import stdin
 import heapq
-
 heap = []
 
-for _ in range(int(input())):
-    n = int(input())
-    if n != 0:
-        heapq.heappush(heap, n)
-    elif len(heap) == 0 and n != 0:
-
+for _ in range(int(stdin.readline())):
+    n = int(stdin.readline())
+    # 입력값이 0이면 가장 작은 값 출력
+    if n == 0:
+        # heap이 비어 있는 경우에 입력값이 0이면 0출력
+        if len(heap) == 0:
+            print(0)
+            # 가장 작은값 pop하고 출력
+        else:
+            print(heapq.heappop(heap))
+            # heap에 push
     else:
-        heapq.heappop(heap)
+        heapq.heappush(heap, n)
 ```
 
 ### 💻Set의 특징
@@ -170,8 +175,28 @@ Set은 아래와 같은 상황일 때 사용하는 것이 효율적이다.
 
 ### boj 14425: 문자열 집합
 
-```python
+![](220802_Algorithm.assets/125125.png)
 
+```python
+from sys import stdin
+
+# N: 다음 N개의 줄에 집합 S에 포함되어 있는 문자열들이 주어짐
+# M: 검사해야하는 문자열들
+a,b = map(int, stdin.readline().split())
+dict = {}
+count = 0
+
+for _ in range(a):
+    # 집합 S의 문자열을 딕셔너리에 추가한다.
+    string_ = str(stdin.readline().strip())
+    dict[string_] = 1
+
+for _ in range(b):
+    check_str = str(stdin.readline().strip())
+    # 딕셔너리의 문자열과 비교하여 존재할 때마다 count += 1한다.
+    if check_str in dict:
+        count += 1
+print(count)
 ```
 
 ## References
