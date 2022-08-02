@@ -39,6 +39,10 @@
 (2022.07.23~2022.07.24) 백준 문제풀이
 
 (2022.07.25) 알고리즘 입력 및 출력 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.07.26) 알고리즘 입력 및 출력 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.07.27) 백준 문제풀이
 <br><br>
 
 ## Markdown
@@ -75,7 +79,7 @@
 
 ❗[List Comprehension, Venv, Filter, Lambda (2022.07.21)](./Python/220721_Python.md)
 
-## Algorithm
+## Algorithm/Data Structures
 
 ❗[Data Structures, Input, Output (2022.07.25)](./Algorithm/220725_Algorithm.md)
 
