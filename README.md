@@ -54,7 +54,10 @@
 
 (2022.08.01) Stack, Queue, Deque 학습 / 백준 문제풀이 / 코드 리뷰
 
-(2022.08.02) Heap, Set, Priority Queue / 백준 문제풀이 / 코드 리뷰
+(2022.08.02) Heap, Set, Priority Queue 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.08.03) 이차원 배열, List Comprehension 학습 / 백준 문제풀이 / 코드 리뷰
+
 <br><br>
 
 ## Markdown
@@ -76,8 +79,6 @@
 ❗[Conditional and Control Statement, Loop(2022.07.12)](./Python/220712_Python.md)
 
 ❗[Function, Map(2022.07.13)](./Python/220713_Python.md)
-
-✍️[Python Exercise(2022.07.12~2022.07.19)](./Python/Exercise)
 
 ❗[Methods in Dictionary, List, String(2022.07.14)](./Python/220714_Python.md)
 
@@ -104,6 +105,8 @@
 ❗[Stack, Queue, Deque (2022.08.01)](./Algorithm/220801_Algorithm.md)
 
 ❗[Heap, Set, Priority Queue (2022.08.02)](./Algorithm/220802_Algorithm.md)
+
+❗[Two Dimensional Array, List Comprehension (2022.08.03)](./Algorithm/220803_Algorithm.md)
 
 ## ETC
 
