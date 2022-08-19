@@ -336,15 +336,26 @@ id name
 
 SET clause를 통해 테이블의 각 열에 대해 새로운 값을 설정할 수 있다.
 
+classmates 테이블에 id가 5인 레코드를 수정해보자.
+
 ```SQL
 '''
-UPDATE 테이블이름
-SET 필드값 = '새로운 값'
+UPDATE 테이블이름 SET 컬럼 = '새로운 값'
 WHERE 조건
 '''
-UPDATE classmates
-SET address = '서울'
+UPDATE classmates SET address = '서울'
 WHERE rowid = 5;
 
 SELECT * FROM classmates;
 ```
+
+classmates 테이블에 id가 5인 레코드를 수정해보자. (이름을 홍길동으로 주소를 제주도로 수정해보자.)
+
+```sql
+UPDATE classmates SET name = '홍길동', address = '제주도'
+WHERE rowid = 5;
+```
+
+🍯최종 간단 요약(CRUD의 기본형)
+
+![](220816_Database.assets/ASD.png)
