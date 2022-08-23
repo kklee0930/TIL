@@ -108,6 +108,26 @@
 
 ❗[Two Dimensional Array, List Comprehension (2022.08.03)](./Algorithm/220803_Algorithm.md)
 
+❗[Brute Force, Delta Search (2022.08.08)](./Algorithm/220808_Algorithm.md)
+
+❗[Graph, Adjacent Matrix (2022.08.09)](./Algorithm/220809_Algorithm.md)
+
+❗[DFS, BFS (2022.08.10)](./Algorithm/220810_Algorithm.md)
+
+## Database
+
+❗[Database, RDBMS, basic SQL (2022.08.16)](./Database/220816_Database.md)
+
+❗[basic SQL, Aggregate Functions, LIKE, ORDER BY (2022.08.17)](./Database/220817_Database.md)
+
+❗[GROUP BY, HAVING, ALTER (2022.08.18)](./Database/220818_Database.md)
+
+❗[CASE, Subquery (2022.08.19)](./Database/220819_Database.md)
+
+❗[INNER JOIN, OUTER JOIN, CROSS JOIN (2022.08.22)](./Database/220822_Database.md)
+
+❗[ERD Modeling (2022.08.23)](./Database/220823_Database.md)
+
 ## ETC
 
 ❗[API, json files (2022.07.22)](./Python/220722_Python.md)
