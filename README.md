@@ -58,6 +58,32 @@
 
 (2022.08.03) 이차원 배열, List Comprehension 학습 / 백준 문제풀이 / 코드 리뷰
 
+(2022.08.04)
+
+(2022.08.08) Brute Force, Delta Search 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.08.09) Graph, Adjacent List 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.08.10) DFS, BFS 학습 / 백준 문제풀이 / 코드 리뷰
+
+(2022.08.11)
+
+(2022.08.16) DB 기초, Intro 학습
+
+(2022.08.17) 기본 SQL문 학습
+
+(2022.08.18) GROUP BY, HAVING, ALTER 학습
+
+(2022.08.19) CASE, SUBQUERY 학습
+
+(2022.08.22) INNER, OUTER, CROSS JOIN 학습
+
+(2022.08.23) ERD Modeling 학습
+
+(2022.08.24)
+
+(2022.08.25)
+
 <br><br>
 
 ## Markdown
@@ -108,11 +134,15 @@
 
 ❗[Two Dimensional Array, List Comprehension (2022.08.03)](./Algorithm/220803_Algorithm.md)
 
+❗[수정요망 (2022.08.04)](./Algorithm/220804_Algorithm.md)
+
 ❗[Brute Force, Delta Search (2022.08.08)](./Algorithm/220808_Algorithm.md)
 
 ❗[Graph, Adjacent Matrix (2022.08.09)](./Algorithm/220809_Algorithm.md)
 
 ❗[DFS, BFS (2022.08.10)](./Algorithm/220810_Algorithm.md)
+
+❗[수정요망 (2022.08.11)](./Algorithm/220811_Algorithm.md)
 
 ## Database
 
@@ -127,6 +157,10 @@
 ❗[INNER JOIN, OUTER JOIN, CROSS JOIN (2022.08.22)](./Database/220822_Database.md)
 
 ❗[ERD Modeling (2022.08.23)](./Database/220823_Database.md)
+
+❗[수정요망 (2022.08.24)](./Database/220824_Database.md)
+
+❗[수정요망 (2022.08.25)](./Database/220825_Database.md)
 
 ## ETC
 
