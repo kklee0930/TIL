@@ -114,6 +114,29 @@ class Album(models.Model):
     name = models.CharField(max_length = 30)
     genre = models.ForeignKey('Genre', on_delete=models.CASCADE)
     artist = models.ForeignKey('Artist', on_delete=models.CASCADE)
+
+# 특정 id를 지니는 인스턴스를 get으로 가져와서 Foreign Key로 설정해준다.
+genre = Genre.objects.get(id=1)
+album.genre = genre
+album.artist = Artist.objects.get(id=1)
+album.save()
+
+album = Album.objects.get(id = 1) # 앨범 객체를 뜻함
+album.artist
+
+# 역참조 (1 => N)
+# id가 1인 장르의 모든 앨범은?
+g1 = Genre.objects.get(id = 1)
+g1.album_set.all()
+
+참조와 역참조의 차이:
+앨범입장에서 참조는 직접 참조하고 있는 것이다??? 그래서 직접 쓰면된다.
+
+역참조는 album.name
+
+별도의 설명이 없다면 역참조는 항상 _소문자를 붙인다.
+
+따라서 album_set.all 이 되는 것이다. (앨범의 인스턴스를 모두 조회?)
 ```
 
 🍯쿼리셋 API를 사용시에 어떤 장점/단점이 있을까?
