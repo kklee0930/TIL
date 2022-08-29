@@ -1,4 +1,4 @@
-💻이중 리스트 순회
+### 💻이중 리스트 순회
 
 1. 이중 for문을 이용한 행 우선 순회
 
@@ -72,7 +72,36 @@ def matrixSum(matrix):
 행 우선 순회를 이용해 이차원 리스트의 최대값, 최소값을 구해보자.
 
 ```python
+matrix = [
+[0, 5, 3, 1],
+[4, 6, 10, 8],
+[9, -1, 1, 5]
+]
 
+max_val = 0
+
+for i in range(3):
+    for j in range(4):
+        if matrix[i][j] > max_val:
+            max_val = matrix[i][j]
+print(max_val)
+```
+
+```python
+matrix = [
+[0, 5, 3, 1],
+[4, 6, 10, 8],
+[9, -1, 1, 5]
+]
+
+min_val = 999999999
+
+for i in range(3):
+    for j in range(3):
+        if matrix[i][j] < min_val:
+            min_val = matrix[i][j]
+
+print(min_val)
 ```
 
 🍯Pythonic한 방법으로도 구할 수 있다.
@@ -89,16 +118,16 @@ max_ = max(map(max, matrix))
 
 [Jungol 937 : 리스트 3 - 형성평가 9](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4364&sca=pyc0)
 
-```python
+<br>
 
-```
-
-💻전치(Transpose)
+### 💻전치(Transpose)
 
 행렬의 행과 열을 서로 맞바꾸는 행위이다.
 
 - 3 X 4 행렬이 transpose 과정을 거쳐 4 X 3 행렬이 된다.
+
 - 2 X 3 행렬이 transpose 과정을 거쳐 3 X 2 행렬이 된다.
+
 - 3 X 3 행렬이 transpose 과정을 거쳐 3 X 3 행렬이 된다.
 
 전치 과정을 거친 행렬을 transpose matrix라고 한다!
@@ -110,10 +139,26 @@ matrix = [
     [9,0,1,2]
 ]
 
+transposed_matrix = [[0] * len(matrix) for _ in range(matrix[0])]
+
+for i in range(4):
+    for j in range(3):
+        transposed_matrix[i][j] = matrix[j][i] # 행, 열 맞바꾸기
+
+"""
+transposed_matrix = [
+[1, 5, 9],
+[2, 6, 0],
+[3, 7, 1],
+[4, 8, 2]
+]
+"""
 ```
 
-💻회전
+<br>
+
+### 💻회전
 
 이차원리스트를 회전시키는 유형의 문제도 존재한다. 예를 들어 90도 왼쪽으로 돌리기, 180도 돌리기, 이런 유형의 문제들이 출제 되기도 한다. 이런 문제는 어떻게 풀어야할까?
 
-다음시간에 다루게 되겠지만 한번 스스로 고민해보자...
+한번 스스로 고민해보자...

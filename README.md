@@ -1,8 +1,10 @@
 # 📖Today I learned
 
-![tenor](README.assets/tenor.gif)
+![](README.assets/DJ9NUJJX0AAqYKK.jpg)
 
-### 📆Timeline
+<br>
+
+## 📆Timeline
 
 (2022.07.04) 마크다운 작성법
 
@@ -58,7 +60,7 @@
 
 (2022.08.03) 이차원 배열, List Comprehension 학습 / 백준 문제풀이 / 코드 리뷰
 
-(2022.08.04)
+(2022.08.04) 이차원 배열(전치행렬) 조작 학습 / 백준 문제풀이 / 코드 리뷰
 
 (2022.08.08) Brute Force, Delta Search 학습 / 백준 문제풀이 / 코드 리뷰
 
@@ -66,7 +68,7 @@
 
 (2022.08.10) DFS, BFS 학습 / 백준 문제풀이 / 코드 리뷰
 
-(2022.08.11)
+(2022.08.11) 코딩테스트 최종 준비 / 백준 문제풀이 / 코드 리뷰
 
 (2022.08.16) DB 기초, Intro 학습
 
@@ -136,7 +138,7 @@
 
 ❗[Two Dimensional Array, List Comprehension (2022.08.03)](./Algorithm/220803_Algorithm.md)
 
-❗[수정요망 (2022.08.04)](./Algorithm/220804_Algorithm.md)
+❗[Two Dimensional Array, Transpose Matrix (2022.08.04)](./Algorithm/220804_Algorithm.md)
 
 ❗[Brute Force, Delta Search (2022.08.08)](./Algorithm/220808_Algorithm.md)
 
@@ -144,7 +146,7 @@
 
 ❗[DFS, BFS (2022.08.10)](./Algorithm/220810_Algorithm.md)
 
-❗[수정요망 (2022.08.11)](./Algorithm/220811_Algorithm.md)
+❗[Coding Test Final Practice (2022.08.11)](./Algorithm/220811_Algorithm.md)
 
 ## Database
 
