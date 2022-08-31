@@ -6,34 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .box1 {
-        display: inline;
+      div {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
         border: 1px solid black;
-        background-color: royalblue;
       }
-      .box2 {
-        display: block;
-        border: 1px solid black;
-        height: 10em;
-        width: 10em;
-        background-color: red;
-        margin-left: auto;
-        text-align: right;
+      .parent {
+        position: relative;
+        width: 300px;
+        height: 300px;
       }
-      .box3 {
-        display: block;
-        border: 1px solid black;
-        height: 10em;
-        width: 10em;
-        background-color: green;
-        margin: auto;
-        text-align: center;
+      .absolute {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background-color: crimson;
+      }
+      .sibling {
+        background-color: deepskyblue;
+      }
+      .relative {
+        position: relative;
+        top: 100px;
+        left: 100px;
+        background-color: crimson;
       }
     </style>
   </head>
   <body>
-    <span class="box1">test1</span>
-    <div class="box2">test2</div>
-    <div class="box3">test3</div>
+    <div class="parent">
+      <div class="absolute">형_absolute</div>
+      <div class="sibling">동생</div>
+    </div>
+    <div class="parent">
+      <div class="relative">형_relative</div>
+      <div class="sibling">동생</div>
+    </div>
   </body>
 </html>
