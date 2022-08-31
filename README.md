@@ -88,6 +88,12 @@
 
 (2022.08.29) HTML 기초 및 웹 기초 학습
 
+(2022.08.30) CSS border, box-sizing, display 학습
+
+(2022.08.31)
+
+(2022.09.01)
+
 <br><br>
 
 ## Markdown
@@ -169,6 +175,10 @@
 ## Web
 
 ❗[HTML 기초 (2022.08.29)](./Web/220829_Web.md)
+
+❗[CSS border, box-sizing, display (2022.08.30)](./Web/220830_Web.md)
+
+❗[수정요망 (2022.08.31)](./Web/220831_Web.md)
 
 ## ETC
 
