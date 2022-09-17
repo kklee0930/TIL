@@ -6,14 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+        .red {
+            color: red;
+        }
+        
+        .blue {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 id="title">Js 기초</h1>
-    <h2>DOM 조작</h2>
-    <p class="text">querySelector</p>
-    <p class="text">querySelectorAll</p>
-    <script></script>
+    <h1 class="red">안녕하세요</h1>
+    <script>
+        // a 태그 조작
+        const h1 = document.querySelector("h1");
+        h1.setAttribute("class", "blue");
+        const a = document.createElement("a");
+        a.innerText = "실라버스";
+        a.setAttribute("href", "https://syllaverse.com");
+        const body = document.querySelector("body");
+        body.appendChild(a);
+        console.log(a.getAttribute("href"));
+    </script>
 </body>
 
 </html>
