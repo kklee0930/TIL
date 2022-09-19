@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">버튼</button>
+    <p id="count">0</p>
+    <!-- 입력된 내용을 받아오기 -->
+    <input type="text" id="text-input" />
+    <script>
+        const btn = document.querySelector("#btn");
+        let count = 0;
+        // 변수 생성하면 btn 변수 콘솔에 출력
+        console.log(btn);
+        // 버튼이 클릭되면 익명함수 실행됨(콘솔에 "버튼클릭됨!" 출력)
+        btn.addEventListener("click", function() {
+            console.log("버튼클릭됨!");
+            //count를 증가시키고
+            count += 1;
+            //id가 count인 것의 내용을 변경시킨다.
+            const counter = document.querySelector("#count");
+            counter.innerText = count;
+        });
+
+        const textInput = document.querySelector("#text-input");
+        //input의 value를 받아오려고 할 때
+        textInput.addEventListener("input", function(event) {
+            //여기서 input은 event의 대상
+            console.log(event);
+            console.log(event.target.value);
+        });
+    </script>
+</body>
+
+</html>
